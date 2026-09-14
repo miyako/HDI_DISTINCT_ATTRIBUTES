@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/Forms/HDI2/form.4DForm" source-language="en" target-language="ja">
+	<body>
+	  <trans-unit resname="HDI2_TabInfo">
+		<source>Info</source>
+		<target>情報</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_TabExample">
+		<source>Example</source>
+		<target>サンプル</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_TabDemo">
+		<source>Demo</source>
+		<target>デモ</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_BtnNext">
+		<source>--></source>
+		<target>--></target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_LblAttribute">
+		<source>Attribute</source>
+		<target>属性</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_LblValueColon">
+		<source>Value:</source>
+		<target>値：</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_LblAttributesDesc">
+		<source>These attributes are the existing attributes in the object field. </source>
+		<target>これらの属性はオブジェクト・フィールドに存在する属性です。</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_LblValuesDesc">
+		<source>These values are the non-repeated values for the attribute selected. </source>
+		<target>これらの値は選択された属性に対して繰り返し使用されていない値です。</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_BtnGetDistinctPaths">
+		<source>Get distinct paths</source>
+		<target>重複しないパスを取得</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_Step1">
+		<source>1- Get distinct paths from the object field.</source>
+		<target>1- オブジェクト・フィールドから重複しないパスを取得</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_BtnGetDistinctValues">
+		<source>Get distinct values</source>
+		<target>重複しない値を取得</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_Step2">
+		<source>2- Get distinct values from the attribute path selected.</source>
+		<target>2- 選択した属性パスから重複しない値を取得</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_LblFieldQueried">
+		<source>The object field queried: </source>
+		<target>検索したオブジェクト・フィールド：</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_LblAttributeColon">
+		<source>Attribute:</source>
+		<target>属性：</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_LblValueColon2">
+		<source>Value:</source>
+		<target>値：</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_BtnQueryByAttribute">
+		<source>Query by attribute</source>
+		<target>属性でクエリ</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_BtnAllRecords">
+		<source>All records</source>
+		<target>全レコード</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_LblMaxAge">
+		<source>Maximum age:</source>
+		<target>最高齢：</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_LblMinAge">
+		<source>Minimum age:</source>
+		<target>最小年齢：</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_LblAvgAge">
+		<source>Average age:</source>
+		<target>平均年齢：</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_ColName">
+		<source>Name</source>
+		<target>名前</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_ColCity">
+		<source>City</source>
+		<target>市区町村</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_ColPhone">
+		<source>Phone</source>
+		<target>電話番号</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_ColCompany">
+		<source>Company</source>
+		<target>会社名</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_QueryIntro">
+		<source>You can query the field in order to retrieve the data which match a defined attribute.</source>
+		<target>定義された属性に適合するデータを検索するためにフィールドをクエリできます。</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_StatsTitle">
+		<source>Statistics on the current selection</source>
+		<target>現在のセレクションの統計</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_ContactsTitle">
+		<source>List of contacts</source>
+		<target>コンタクト先リスト</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_BtnClear">
+		<source>Clear</source>
+		<target>クリア</target>
+	  </trans-unit>
+	</body>
+  </file>
+</xliff>

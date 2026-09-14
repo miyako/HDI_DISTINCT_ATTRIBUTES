@@ -1,8 +1,8 @@
 Case of 
 	: (Form event code:C388=On Selection Change:K2:29)
-		C_DATE:C307($date)
-		C_LONGINT:C283($col; $row; $age)
-		C_BOOLEAN:C305($bool)
+		var $date : Date
+		var $col; $row; $age; $n; $i : Integer
+		var $bool : Boolean
 		
 		LISTBOX GET CELL POSITION:C971(*; "contactsList"; $col; $row)
 		

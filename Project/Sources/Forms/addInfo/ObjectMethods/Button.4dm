@@ -1,3 +1,4 @@
+var $szArray : Integer
 
 $szArray:=Size of array:C274(_attributes)
 

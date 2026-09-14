@@ -1,11 +1,12 @@
-//%attributes = {}
+//%attributes = {"invisible":true}
+
+var $fp : Text
+var platform : Text
 
 ARRAY TEXT:C222(tabControl; 0)
-APPEND TO ARRAY:C911(tabControl; "Info")
-APPEND TO ARRAY:C911(tabControl; "Example")
-APPEND TO ARRAY:C911(tabControl; "Demo")
-
-C_POINTER:C301($nil)
+APPEND TO ARRAY:C911(tabControl; Localized string("HDI2_TabInfo"))
+APPEND TO ARRAY:C911(tabControl; Localized string("HDI2_TabExample"))
+APPEND TO ARRAY:C911(tabControl; Localized string("HDI2_TabDemo"))
 
 $fp:=Localized document path:C1105("txtInfo.txt")
 

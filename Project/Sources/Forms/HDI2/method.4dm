@@ -28,7 +28,7 @@ Case of
 			
 			// if the popup is empty
 			If ((Size of array:C274(_DistinctPath)=0))
-				ALERT:C41("You need to go back on the example page for populate this popup.")
+				ALERT:C41(Localized string("AlertGoBackToExamplePage"))
 			End if 
 			
 			//empty the listbox before any querry

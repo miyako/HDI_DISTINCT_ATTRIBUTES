@@ -1,3 +1,5 @@
+var $szArray; $i : Integer
+
 ARRAY TEXT:C222(_DistinctValues; 0)
 
 

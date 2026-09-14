@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/Forms/HDI2/form.4DForm" source-language="en" target-language="en">
+	<body>
+	  <trans-unit resname="HDI2_TabInfo">
+		<source>Info</source>
+		<target>Info</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_TabExample">
+		<source>Example</source>
+		<target>Example</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_TabDemo">
+		<source>Demo</source>
+		<target>Demo</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_BtnNext">
+		<source>--></source>
+		<target>--></target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_LblAttribute">
+		<source>Attribute</source>
+		<target>Attribute</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_LblValueColon">
+		<source>Value:</source>
+		<target>Value:</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_LblAttributesDesc">
+		<source>These attributes are the existing attributes in the object field. </source>
+		<target>These attributes are the existing attributes in the object field. </target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_LblValuesDesc">
+		<source>These values are the non-repeated values for the attribute selected. </source>
+		<target>These values are the non-repeated values for the attribute selected. </target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_BtnGetDistinctPaths">
+		<source>Get distinct paths</source>
+		<target>Get distinct paths</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_Step1">
+		<source>1- Get distinct paths from the object field.</source>
+		<target>1- Get distinct paths from the object field.</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_BtnGetDistinctValues">
+		<source>Get distinct values</source>
+		<target>Get distinct values</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_Step2">
+		<source>2- Get distinct values from the attribute path selected.</source>
+		<target>2- Get distinct values from the attribute path selected.</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_LblFieldQueried">
+		<source>The object field queried: </source>
+		<target>The object field queried: </target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_LblAttributeColon">
+		<source>Attribute:</source>
+		<target>Attribute:</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_LblValueColon2">
+		<source>Value:</source>
+		<target>Value:</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_BtnQueryByAttribute">
+		<source>Query by attribute</source>
+		<target>Query by attribute</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_BtnAllRecords">
+		<source>All records</source>
+		<target>All records</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_LblMaxAge">
+		<source>Maximum age:</source>
+		<target>Maximum age:</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_LblMinAge">
+		<source>Minimum age:</source>
+		<target>Minimum age:</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_LblAvgAge">
+		<source>Average age:</source>
+		<target>Average age:</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_ColName">
+		<source>Name</source>
+		<target>Name</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_ColCity">
+		<source>City</source>
+		<target>City</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_ColPhone">
+		<source>Phone</source>
+		<target>Phone</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_ColCompany">
+		<source>Company</source>
+		<target>Company</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_QueryIntro">
+		<source>You can query the field in order to retrieve the data which match a defined attribute.</source>
+		<target>You can query the field in order to retrieve the data which match a defined attribute.</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_StatsTitle">
+		<source>Statistics on the current selection</source>
+		<target>Statistics on the current selection</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_ContactsTitle">
+		<source>List of contacts</source>
+		<target>List of contacts</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI2_BtnClear">
+		<source>Clear</source>
+		<target>Clear</target>
+	  </trans-unit>
+	</body>
+  </file>
+</xliff>

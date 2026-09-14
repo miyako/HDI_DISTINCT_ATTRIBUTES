@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/Forms/HDI/form.4DForm" source-language="en" target-language="en">
+	<body>
+	  <trans-unit resname="HDI_Title">
+		<source>How Do I...</source>
+		<target>How Do I...</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI_Info">
+		<source>… retrieve distinct attribute paths or distinct attribute values in a Object field selection?</source>
+		<target>… retrieve distinct attribute paths or distinct attribute values in a Object field selection?</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI_SorryDesignMode">
+		<source>Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</source>
+		<target>Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI_SorryVersion">
+		<source>Sorry, this “How do I” (HDI) example must be used witha newer version of 4D(v15 {R4} and above).</source>
+		<target>Sorry, this “How do I” (HDI) example must be used witha newer version of 4D(v15 {R4} and above).</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI_VersionInfo">
+		<source>(4D v16 and above…)</source>
+		<target>(4D v16 and above…)</target>
+	  </trans-unit>
+	  <trans-unit resname="HDI_BtnDemo">
+		<source>Demo</source>
+		<target>Demo</target>
+	  </trans-unit>
+	</body>
+  </file>
+</xliff>

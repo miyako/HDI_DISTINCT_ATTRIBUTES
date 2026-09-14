@@ -104,8 +104,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column4",
@@ -138,8 +140,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						}
 					]
 				},
@@ -148,26 +152,26 @@
 					"top": 572,
 					"left": 219,
 					"width": 169,
-					"height": 19,
-					"text": "Validate",
+					"text": ":xliff:addInfo_BtnValidate",
 					"focusable": false,
 					"method": "ObjectMethods/Button.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Button1": {
 					"type": "button",
 					"top": 572,
 					"left": 37,
 					"width": 169,
-					"height": 19,
-					"text": "Cancel",
+					"text": ":xliff:addInfo_BtnCancel",
 					"focusable": false,
 					"method": "ObjectMethods/Button1.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				}
 			}
 		}
