@@ -1,27 +1,25 @@
 //%attributes = {"invisible":true}
-C_REAL:C285(bCancel)
-C_REAL:C285(bDelete)
-C_REAL:C285(bFirst)
-C_REAL:C285(bLast)
-C_REAL:C285(bNext)
-C_REAL:C285(bPrevious)
-C_REAL:C285(bValidate)
-C_REAL:C285(Demo)
-C_REAL:C285(Header1)
-C_REAL:C285(Header2)
-C_REAL:C285(Header3)
-C_REAL:C285(List Box)
-C_TEXT:C284(OutputVar)
-C_REAL:C285(Splitter10)
-C_REAL:C285(Splitter11)
-C_REAL:C285(Splitter12)
-C_REAL:C285(Splitter13)
-C_REAL:C285(Splitter2)
-C_REAL:C285(Splitter3)
-C_REAL:C285(Splitter4)
-C_REAL:C285(Splitter5)
-C_REAL:C285(Splitter6)
-C_REAL:C285(Splitter7)
-C_REAL:C285(Splitter8)
-C_REAL:C285(Splitter9)
-C_TEXT:C284(vRecNum)
+var bCancel : Real
+var bDelete : Real
+var bFirst : Real
+var bLast : Real
+var bNext : Real
+var bPrevious : Real
+var bValidate : Real
+var Header1 : Real
+var Header2 : Real
+var Header3 : Real
+var OutputVar : Text
+var Splitter10 : Real
+var Splitter11 : Real
+var Splitter12 : Real
+var Splitter13 : Real
+var Splitter2 : Real
+var Splitter3 : Real
+var Splitter4 : Real
+var Splitter5 : Real
+var Splitter6 : Real
+var Splitter7 : Real
+var Splitter8 : Real
+var Splitter9 : Real
+var vRecNum : Text

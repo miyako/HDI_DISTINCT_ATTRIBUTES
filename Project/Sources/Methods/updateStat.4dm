@@ -1,6 +1,6 @@
-//%attributes = {}
-C_LONGINT:C283(ageMax; ageMin; ageAverage)
-C_TEXT:C284(vTextRecord)
+//%attributes = {"invisible":true}
+var ageMax; ageMin; ageAverage : Integer
+var vTextRecord : Text
 
 // stats on the page 3 
 vTextRecord:=String:C10(Records in selection:C76([CONTACTS_2:8]); "|LongInt")+" Records"

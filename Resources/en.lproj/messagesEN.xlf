@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/Methods" source-language="en" target-language="en">
+	<body>
+	  <trans-unit resname="BtnClose">
+		<source>Close</source>
+		<target>Close</target>
+	  </trans-unit>
+	  <trans-unit resname="AlertGoBackToExamplePage">
+		<source>You need to go back on the example page for populate this popup.</source>
+		<target>You need to go back on the example page for populate this popup.</target>
+	  </trans-unit>
+	  <trans-unit resname="RequestValueForAttribute">
+		<source>Value for @1 for this contact</source>
+		<target>Value for @1 for this contact</target>
+	  </trans-unit>
+	  <trans-unit resname="RequestNewAttributeName">
+		<source>Information name:</source>
+		<target>Information name:</target>
+	  </trans-unit>
+	</body>
+  </file>
+</xliff>

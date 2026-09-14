@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/Methods" source-language="en" target-language="ja">
+	<body>
+	  <trans-unit resname="BtnClose">
+		<source>Close</source>
+		<target>閉じる</target>
+	  </trans-unit>
+	  <trans-unit resname="AlertGoBackToExamplePage">
+		<source>You need to go back on the example page for populate this popup.</source>
+		<target>このポップアップに値を入れるには、サンプルのページに戻る必要があります。</target>
+	  </trans-unit>
+	  <trans-unit resname="RequestValueForAttribute">
+		<source>Value for @1 for this contact</source>
+		<target>このコンタクト先の @1 の値</target>
+	  </trans-unit>
+	  <trans-unit resname="RequestNewAttributeName">
+		<source>Information name:</source>
+		<target>項目名：</target>
+	  </trans-unit>
+	</body>
+  </file>
+</xliff>

@@ -1,0 +1,18 @@
+/*
+ * Cross-platform dark mode support.
+ * Automatic color values ("automatic" / "automaticAlternate") are set on
+ * individual form objects in each .4DForm; this stylesheet only defines
+ * branded/custom colors that need explicit light/dark variants.
+ */
+
+@media (prefers-color-scheme: light) {
+	.hdi-alert-text {
+		stroke: #FF4D00;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.hdi-alert-text {
+		stroke: #FF7A47;
+	}
+}

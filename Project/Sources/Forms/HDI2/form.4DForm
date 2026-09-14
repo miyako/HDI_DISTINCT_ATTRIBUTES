@@ -65,12 +65,12 @@
 					"top": 553,
 					"left": 680,
 					"width": 91,
-					"height": 17,
-					"text": "-->",
+					"text": ":xliff:HDI2_BtnNext",
 					"method": "ObjectMethods/Button2.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Picture8": {
 					"type": "picture",
@@ -104,7 +104,8 @@
 					"width": 76,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Attribute"
+					"text": ":xliff:HDI2_LblAttribute",
+					"stroke": "automatic"
 				},
 				"Text1": {
 					"type": "text",
@@ -113,7 +114,8 @@
 					"width": 76,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Value:"
+					"text": ":xliff:HDI2_LblValueColon",
+					"stroke": "automatic"
 				},
 				"distinctValuesList": {
 					"type": "listbox",
@@ -122,7 +124,7 @@
 					"width": 150,
 					"height": 130,
 					"resizingMode": "legacy",
-					"dataSource": "List Box1",
+					"dataSource": "",
 					"focusable": false,
 					"rowHeightAutoMin": "20px",
 					"rowHeightAutoMax": "20px",
@@ -176,7 +178,8 @@
 					"left": 432,
 					"width": 250,
 					"height": 33,
-					"text": "These attributes are the existing attributes in the object field. "
+					"text": ":xliff:HDI2_LblAttributesDesc",
+					"stroke": "automatic"
 				},
 				"Text6": {
 					"type": "text",
@@ -184,20 +187,21 @@
 					"left": 432,
 					"width": 250,
 					"height": 33,
-					"text": "These values are the non-repeated values for the attribute selected. "
+					"text": ":xliff:HDI2_LblValuesDesc",
+					"stroke": "automatic"
 				},
 				"Button": {
 					"type": "button",
 					"top": 107,
 					"left": 119,
 					"width": 150,
-					"height": 17,
-					"text": "Get distinct paths",
+					"text": ":xliff:HDI2_BtnGetDistinctPaths",
 					"focusable": false,
 					"method": "ObjectMethods/Button.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Text2": {
 					"type": "text",
@@ -205,20 +209,21 @@
 					"left": 67,
 					"width": 250,
 					"height": 33,
-					"text": "1- Get distinct paths from the object field."
+					"text": ":xliff:HDI2_Step1",
+					"stroke": "automatic"
 				},
 				"Button1": {
 					"type": "button",
 					"top": 226,
 					"left": 119,
 					"width": 150,
-					"height": 17,
-					"text": "Get distinct values",
+					"text": ":xliff:HDI2_BtnGetDistinctValues",
 					"focusable": false,
 					"method": "ObjectMethods/Button1.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Text7": {
 					"type": "text",
@@ -226,7 +231,8 @@
 					"left": 67,
 					"width": 250,
 					"height": 33,
-					"text": "2- Get distinct values from the attribute path selected."
+					"text": ":xliff:HDI2_Step2",
+					"stroke": "automatic"
 				},
 				"Text4": {
 					"type": "text",
@@ -234,7 +240,8 @@
 					"left": 67,
 					"width": 250,
 					"height": 33,
-					"text": "The object field queried: "
+					"text": ":xliff:HDI2_LblFieldQueried",
+					"stroke": "automatic"
 				},
 				"Picture10": {
 					"type": "picture",
@@ -288,7 +295,8 @@
 					"width": 76,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Attribute:"
+					"text": ":xliff:HDI2_LblAttributeColon",
+					"stroke": "automatic"
 				},
 				"Text12": {
 					"type": "text",
@@ -297,33 +305,34 @@
 					"width": 76,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Value:"
+					"text": ":xliff:HDI2_LblValueColon2",
+					"stroke": "automatic"
 				},
 				"Button8": {
 					"type": "button",
 					"top": 116,
 					"left": 568,
 					"width": 180,
-					"height": 22,
-					"text": "Query by attribute",
+					"text": ":xliff:HDI2_BtnQueryByAttribute",
 					"focusable": false,
 					"method": "ObjectMethods/Button8.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Button9": {
 					"type": "button",
 					"top": 36,
 					"left": 568,
 					"width": 90,
-					"height": 22,
-					"text": "All records",
+					"text": ":xliff:HDI2_BtnAllRecords",
 					"focusable": false,
 					"method": "ObjectMethods/Button9.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"distinctValuesList1": {
 					"type": "listbox",
@@ -332,7 +341,7 @@
 					"width": 180,
 					"height": 102,
 					"resizingMode": "legacy",
-					"dataSource": "List Box1",
+					"dataSource": "",
 					"focusable": false,
 					"rowHeightAutoMin": "20px",
 					"rowHeightAutoMax": "20px",
@@ -389,7 +398,8 @@
 					"textAlign": "right",
 					"fontFamily": "System Font",
 					"fontSize": 13,
-					"text": "Maximum age:"
+					"text": ":xliff:HDI2_LblMaxAge",
+					"stroke": "automatic"
 				},
 				"Variable5": {
 					"type": "input",
@@ -422,7 +432,8 @@
 					"textAlign": "right",
 					"fontFamily": "System Font",
 					"fontSize": 13,
-					"text": "Minimum age:"
+					"text": ":xliff:HDI2_LblMinAge",
+					"stroke": "automatic"
 				},
 				"Variable6": {
 					"type": "input",
@@ -455,7 +466,8 @@
 					"textAlign": "right",
 					"fontFamily": "System Font",
 					"fontSize": 13,
-					"text": "Average age:"
+					"text": ":xliff:HDI2_LblAvgAge",
+					"stroke": "automatic"
 				},
 				"Variable7": {
 					"type": "input",
@@ -518,7 +530,7 @@
 							],
 							"header": {
 								"name": "Header10",
-								"text": "Name",
+								"text": ":xliff:HDI2_ColName",
 								"dataSource": "Header7",
 								"stroke": "automatic",
 								"textAlign": "automatic",
@@ -529,8 +541,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column11",
@@ -549,7 +563,7 @@
 							],
 							"header": {
 								"name": "Header11",
-								"text": "City",
+								"text": ":xliff:HDI2_ColCity",
 								"dataSource": "Header8",
 								"stroke": "automatic",
 								"textAlign": "automatic",
@@ -560,8 +574,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column12",
@@ -580,7 +596,7 @@
 							],
 							"header": {
 								"name": "Header12",
-								"text": "Phone",
+								"text": ":xliff:HDI2_ColPhone",
 								"dataSource": "Header9",
 								"stroke": "automatic",
 								"textAlign": "automatic",
@@ -591,8 +607,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column4",
@@ -611,7 +629,7 @@
 							],
 							"header": {
 								"name": "Header4",
-								"text": "Company",
+								"text": ":xliff:HDI2_ColCompany",
 								"dataSource": "Header4",
 								"stroke": "automatic",
 								"textAlign": "automatic",
@@ -622,8 +640,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						}
 					]
 				},
@@ -651,7 +671,8 @@
 					"left": 50,
 					"width": 386,
 					"height": 30,
-					"text": "You can query the field in order to retrieve the data which match a defined attribute."
+					"text": ":xliff:HDI2_QueryIntro",
+					"stroke": "automatic"
 				},
 				"Text19": {
 					"type": "text",
@@ -661,7 +682,8 @@
 					"height": 15,
 					"textAlign": "center",
 					"fontWeight": "bold",
-					"text": "Statistics on the current selection"
+					"text": ":xliff:HDI2_StatsTitle",
+					"stroke": "automatic"
 				},
 				"Text21": {
 					"type": "text",
@@ -671,22 +693,27 @@
 					"height": 17,
 					"textAlign": "center",
 					"fontWeight": "bold",
-					"text": "List of contacts"
+					"text": ":xliff:HDI2_ContactsTitle",
+					"stroke": "automatic"
 				},
 				"Button3": {
 					"type": "button",
 					"top": 36,
 					"left": 658,
 					"width": 90,
-					"height": 22,
-					"text": "Clear",
+					"text": ":xliff:HDI2_BtnClear",
 					"focusable": false,
 					"method": "ObjectMethods/Button3.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				}
 			}
 		}
-	]
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
 }

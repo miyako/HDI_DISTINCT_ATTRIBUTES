@@ -14,3 +14,6 @@ Documentation/
 
 # Settings
 Settings/
+
+# 4D runtime library dropped into the project by the IDE/engine
+Libraries/
