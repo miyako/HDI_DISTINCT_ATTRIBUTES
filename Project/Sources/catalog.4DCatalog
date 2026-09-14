@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="HDI_DISTINCT_ATTRIBUTE_PATH_VALUES" uuid="89D3E6F80FA9EA408A0E251A8569EC50" collation_locale="fr">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="(Countries)" uuid="6E09F7CC68B30A458A646D9D5EB59CEE" id="1" hide_in_REST="true">
+		<field name="ShortName" uuid="B807ADDD9FDF5F4BAF00F8A1E769C872" type="10" limiting_length="255" never_null="true" id="1"/>
+		<field name="Name" uuid="D16A82D632F3F1459B395A52203FE591" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="Capital" uuid="24FCD9D394A7AC42B27172D4AF9B7EAF" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="Language" uuid="D8AA7A20B1514F4FA0C7441B40BD1492" type="10" limiting_length="255" never_null="true" id="4"/>
+		<field name="Anthem" uuid="0626F5AD9C133C48BFFBB8E5843BF6AC" type="10" limiting_length="255" never_null="true" id="5" hide_in_REST="true"/>
+		<field name="Currency" uuid="046F2C0691D9B54C9F27AEA6720DF0C9" type="10" limiting_length="255" never_null="true" id="6" hide_in_REST="true"/>
+		<field name="TimeZone" uuid="66A73E439377484CBE9ADE309C87A829" type="10" limiting_length="255" never_null="true" id="7" hide_in_REST="true"/>
+		<field name="TLD" uuid="C9B83AFFF6888648B7D777B1A37D0458" type="10" limiting_length="255" never_null="true" id="8" hide_in_REST="true"/>
+		<field name="CallingCode" uuid="B59829D65772B148885820709CB2EC5E" type="10" limiting_length="255" never_null="true" id="9" hide_in_REST="true"/>
+		<field name="Area" uuid="350B7FA56340634BAD1FE6D1F0EFA13E" type="4" never_null="true" id="10"/>
+		<field name="AreaPosition" uuid="84BC1D6BC704E2439C76DB51E8B524A9" type="4" never_null="true" id="11"/>
+		<field name="Inhabitants" uuid="219CDB1F260D984DB82FC2045518DD3A" type="4" never_null="true" id="12"/>
+		<field name="InhabitantPosition" uuid="EFBBC3647901F841A494E70190FB5657" type="4" never_null="true" id="13" hide_in_REST="true"/>
+		<field name="Flag" uuid="60B336DEB1DC9146A72BACFA97F3FEEE" type="12" never_null="true" id="14" hide_in_REST="true"/>
+		<field name="ID" uuid="923B40508C8B4E119B72BA99AA5E65B9" type="4" unique="true" autosequence="true" id="15" hide_in_REST="true"/>
+		<primary_key field_name="ID" field_uuid="923B40508C8B4E119B72BA99AA5E65B9"/>
+		<table_extra trashed="true" input_form="" output_form=""/>
+	</table>
+	<table name="(SAMPLES)" uuid="90427999CF844DEE9B3FE3F224795D2B" id="2" hide_in_REST="true">
+		<field name="ID" uuid="B0045E0583C747BE8D8CB6E6579C8224" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="TextToProcess" uuid="5A9F848E51FA4FA1839A48EC54F9F450" type="10" never_null="true" id="2"/>
+		<field name="Title" uuid="5C71D15E3A8D41499C49512DF2464094" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="SampleSort" uuid="B67F12AE32944C30BEFBE4FAE7D63F72" type="4" never_null="true" id="4"/>
+		<field name="Parameter" uuid="5B29E3FD154C4FB19A5F5DCE0276FFD7" type="10" never_null="true" id="5"/>
+		<field name="Comments" uuid="5A68EC03DDC247A08BC4CCEAD59311BF" type="10" never_null="true" id="6"/>
+		<primary_key field_name="ID" field_uuid="B0045E0583C747BE8D8CB6E6579C8224"/>
+		<table_extra trashed="true" input_form="(Input)" output_form="(Output)"/>
+	</table>
+	<table name="(Clients)" uuid="84D020A71B104B978B1B6E6B0777BA4A" id="3" hide_in_REST="true" prevent_journaling="true">
+		<field name="Client_ID" uuid="1A1058BD66D14F489467A909137C5CDE" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Name" uuid="89CBB27E87A14B8CB3AA41CAB5BBAA6D" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="Activity" uuid="AFDDCED6CAC84B87A1BAB9EBEAEC9D91" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="Society" uuid="950CA38DD4EC43F2BFCB90D8790F90B4" type="4" never_null="true" id="4"/>
+		<field name="First_name" uuid="86047D86099547C6AFAF54C35746DCB4" type="10" limiting_length="255" never_null="true" id="5"/>
+		<field name="Title" uuid="2664B9E69834421182CB688345AA3CD3" type="10" limiting_length="255" never_null="true" id="6"/>
+		<field name="Adress" uuid="296B01032332426EBA197785CEA6DA16" type="10" limiting_length="255" never_null="true" id="7"/>
+		<field name="Zip" uuid="933E43DE89F74077A73A2FC2D3D18FCE" type="10" limiting_length="255" never_null="true" id="8"/>
+		<field name="City" uuid="6B26A837567B458EA81620FBF07BC44B" type="10" limiting_length="255" never_null="true" id="9"/>
+		<field name="Country" uuid="C3373794C34B4EEB8B98CBCF63921E02" type="10" limiting_length="255" never_null="true" id="10"/>
+		<field name="Count" uuid="F278E239A2004848940264ABD9655AEC" type="4" never_null="true" id="11" hide_in_REST="true"/>
+		<field name="Picture" uuid="D6F4D6F13DE74C21B5B3E8F340B61A56" type="12" never_null="true" id="12"/>
+		<field name="Date" uuid="D233DFEA076740448DE74B70EB2B8E4D" type="8" never_null="true" id="13"/>
+		<field name="time" uuid="5EB29B87F5DA46A4B8F6A97AFF98D2D3" type="9" never_null="true" id="14"/>
+		<field name="boolean" uuid="A4DAA0F5D8E94F46BD655A18E05A8CF0" type="1" never_null="true" id="15"/>
+		<field name="State" uuid="84ED7BBCBD7445909039B7357642487C" type="10" limiting_length="255" never_null="true" id="16"/>
+		<field name="Gender" uuid="CBDDF2E686414F20BF9D551377779A8F" type="10" limiting_length="255" never_null="true" id="17"/>
+		<field name="One_more" uuid="08A20E774CF84FE886DEAA914088C312" type="10" limiting_length="255" never_null="true" id="18"/>
+		<table_extra trashed="true" input_form="(Input)" output_form="(Output)"/>
+	</table>
+	<table name="(Society)" uuid="7B9B4F40444C4079BC4C23A2F71F6FC8" id="4" hide_in_REST="true">
+		<field name="Society_ID" uuid="D5D7E12B410E472587E9495E32E61A6F" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Name" uuid="B0787B5EE2694BF295921631D0EB286A" type="10" store_as_UUID="true" never_null="true" id="2"/>
+		<field name="Zip" uuid="B5DCDC46248049629DEE1558CCDBC50E" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="Adress" uuid="5320C2D762FE4220BA343052BB7FBAB8" type="10" limiting_length="255" never_null="true" id="4"/>
+		<field name="City" uuid="7F4BD27C086744C89CA562A85D9B19E5" type="10" limiting_length="255" never_null="true" id="5"/>
+		<field name="State" uuid="4F7FEA9B564E441E9F13B1FB62D6495D" type="10" limiting_length="255" never_null="true" id="6"/>
+		<field name="Country" uuid="A79484453F2F4DDABD689ED9F13A6E8B" type="10" limiting_length="255" never_null="true" id="7"/>
+		<primary_key field_name="Society_ID" field_uuid="D5D7E12B410E472587E9495E32E61A6F"/>
+		<table_extra trashed="true" input_form="(Input)" output_form="(Output)"/>
+	</table>
+	<table name="(Copy_of_Society)" uuid="FFA616BFD7A042629552B9E09330B5D6" id="5" hide_in_REST="true">
+		<field name="Society_ID" uuid="AF9EB31868C7453798097D13F0770F87" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Name" uuid="3EA22EAC919B49FCA407CF2E43339396" type="10" store_as_UUID="true" never_null="true" id="2"/>
+		<field name="Zip" uuid="6B5D89D3E1B146D6B2E3F1CD7D07E7A5" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="Adress" uuid="D9A887F3C2B74A29853DCD7B0F4B47AF" type="10" limiting_length="255" never_null="true" id="4"/>
+		<field name="City" uuid="DEC2A21E55CC4AFDA25232E29D501997" type="10" limiting_length="255" never_null="true" id="5"/>
+		<field name="State" uuid="BA5EEF7C7FE64DEDA3EA36F309CE9428" type="10" limiting_length="255" never_null="true" id="6"/>
+		<field name="Country" uuid="B74DF73C23A944F7949E129974B71861" type="10" limiting_length="255" never_null="true" id="7"/>
+		<primary_key field_name="Society_ID" field_uuid="AF9EB31868C7453798097D13F0770F87"/>
+		<table_extra trashed="true" input_form="" output_form=""/>
+	</table>
+	<table name="(Clients_1)" uuid="51B960B9099D4810A75B2E180E6F4BD4" id="6" hide_in_REST="true" prevent_journaling="true">
+		<field name="Client_ID" uuid="00BF9634AF9C40E0BEF6C6CE132A2E21" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Name" uuid="D0021F4D879B4BFDBC3C5928E8F55930" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="Activity" uuid="D91E04E1B79E4C269BA203CE7DB0C1EF" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="Society" uuid="3E992E889DC74691AAE3CACBAEBF315E" type="4" never_null="true" id="4"/>
+		<field name="First_name" uuid="3C02ACD26A434CF5B45A189D759C967E" type="10" limiting_length="255" never_null="true" id="5"/>
+		<field name="Title" uuid="A655D15BCEFA4615B55C4D56AB4DD397" type="10" limiting_length="255" never_null="true" id="6"/>
+		<field name="Adress" uuid="11213FD5AB614376AA49073B9A039349" type="10" limiting_length="255" never_null="true" id="7"/>
+		<field name="Zip" uuid="F80777C5DD8D4C04B88C1F21C601D166" type="10" limiting_length="255" never_null="true" id="8"/>
+		<field name="City" uuid="F29DC222AE434B69B5CE08CDCB833FB9" type="10" limiting_length="255" never_null="true" id="9"/>
+		<field name="Country" uuid="CCA641F36EF44E94AB24621E7CC34915" type="10" limiting_length="255" never_null="true" id="10"/>
+		<field name="Count" uuid="D9C689895E82426390340521FBCC051F" type="4" never_null="true" id="11" hide_in_REST="true"/>
+		<field name="Picture" uuid="98D37566E8444A6290C64C516A4829CB" type="12" never_null="true" id="12"/>
+		<field name="Date" uuid="B234B01BC98D44718CF4B5FDB272158A" type="8" never_null="true" id="13"/>
+		<field name="time" uuid="393BE6B1385648FD98747019C95D4ACC" type="9" never_null="true" id="14"/>
+		<field name="boolean" uuid="918D6A3950E04E459C057D979B339100" type="1" never_null="true" id="15"/>
+		<field name="State" uuid="A1EA4692DACE4E888E0E95F01C1EF112" type="10" limiting_length="255" never_null="true" id="16"/>
+		<field name="Gender" uuid="581B54060970425CB4B0A2E715C305E6" type="10" limiting_length="255" never_null="true" id="17"/>
+		<field name="One_more" uuid="6D30921D8C994CCABB47A5C66B20D739" type="10" limiting_length="255" never_null="true" id="18"/>
+		<table_extra trashed="true" input_form="" output_form=""/>
+	</table>
+	<table name="(Society_1)" uuid="0881671D0A1B4A998FB288B48E618538" id="7" hide_in_REST="true">
+		<field name="Society_ID" uuid="35873A1D108A4B7D8B9545735AFF71AC" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Name" uuid="18C03DD72B834FD399E2F47F5BB89F85" type="10" store_as_UUID="true" never_null="true" id="2"/>
+		<field name="Zip" uuid="DDF3DEFEE8A24464A3EFC2A0B687D006" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="Adress" uuid="1A8AD9D6AC3D4202BA691A3C13A1ADB5" type="10" limiting_length="255" never_null="true" id="4"/>
+		<field name="City" uuid="9FF52D2CF45B4EA0ABA9A05FF4326937" type="10" limiting_length="255" never_null="true" id="5"/>
+		<field name="State" uuid="76C897D3DAAF43EF958AC5DDAE6A6FBD" type="10" limiting_length="255" never_null="true" id="6"/>
+		<field name="Country" uuid="4B6355497BC34F2FAC1E8F67E76C4354" type="10" limiting_length="255" never_null="true" id="7"/>
+		<primary_key field_name="Society_ID" field_uuid="35873A1D108A4B7D8B9545735AFF71AC"/>
+		<table_extra trashed="true" input_form="" output_form=""/>
+	</table>
+	<table name="CONTACTS_2" uuid="7AF11397AA7F4E4DB8665309CE51D998" id="8">
+		<field name="ID" uuid="37F3A409B6FE4BFD83F71B5C81D646E2" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Info" uuid="968BE599CF3F4DFD838DF8C64473A44C" type="21" never_null="true" id="2">
+			<field_extra multi_line="false"/>
+		</field>
+		<primary_key field_name="ID" field_uuid="37F3A409B6FE4BFD83F71B5C81D646E2"/>
+		<table_extra input_form="Input" output_form="Output"/>
+	</table>
+	<table name="(CONTACTS_1)" uuid="147979A442CE45A78F5597EF6DFA5E87" id="9" hide_in_REST="true">
+		<field name="ID" uuid="1E9FCEADBFE247D388E227A4508838D0" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Title" uuid="F8267708970246E4BFED623E3A060AC2" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="AbvTitle" uuid="7A028F4C7B4A4D6F80470401FDD04616" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="Lastname" uuid="A32102B781E74A0589B44322B763C344" type="10" limiting_length="255" never_null="true" id="4"/>
+		<field name="Firstname" uuid="C2BC43DFE5834C71926BBEE68341C3FB" type="10" limiting_length="255" never_null="true" id="5"/>
+		<field name="SecondName" uuid="8208B19D85BB4BA88892D21C8A46E97F" type="10" limiting_length="255" never_null="true" id="6"/>
+		<field name="Suffix" uuid="730013865DFA40A8886AF3D4431728F4" type="10" limiting_length="255" never_null="true" id="7"/>
+		<field name="Gender" uuid="E90042FCE9124E00B6992A1242BD0FB4" type="1" never_null="true" id="8"/>
+		<field name="MaidenName" uuid="99F6F28974194F32A1BFF93D3C8729D7" type="10" limiting_length="255" never_null="true" id="9"/>
+		<field name="Lastname2" uuid="659C471BE2C94A92B38EC0BE78D253F8" type="10" limiting_length="255" never_null="true" id="10"/>
+		<field name="Adress" uuid="4A2FF69D6B7443319D9AD293B66586B0" type="10" limiting_length="255" never_null="true" id="11"/>
+		<field name="ZipCode" uuid="2D2558692D4141D9BFDC73B8DB433105" type="10" limiting_length="255" never_null="true" id="12"/>
+		<field name="City" uuid="EF4ECF6979354DBA834E0DEA68F818AE" type="10" limiting_length="255" never_null="true" id="13"/>
+		<field name="State" uuid="583654A09D72414BAA08D68BA93ACA3C" type="10" limiting_length="255" never_null="true" id="14"/>
+		<field name="Country" uuid="C382327DD695483EA5396E513E53993D" type="10" limiting_length="255" never_null="true" id="15"/>
+		<field name="Phone" uuid="37371C22AE38461E96AC79EFF42F92AE" type="10" limiting_length="255" never_null="true" id="16"/>
+		<field name="Mobile" uuid="2429224D40594D8F954E1E8988646424" type="10" limiting_length="255" never_null="true" id="17"/>
+		<field name="Fax" uuid="7C910A2A64DD45438C09536FADECF9D3" type="10" limiting_length="255" never_null="true" id="18"/>
+		<field name="email" uuid="410177E3065C47C98598183058112015" type="10" limiting_length="255" never_null="true" id="19"/>
+		<field name="CompanyName" uuid="DD4D041E6792469EB1AD83673ACE2D5C" type="10" limiting_length="255" never_null="true" id="20"/>
+		<field name="JobType" uuid="A02E430C5C66429FBDECAEFCD7446F69" type="10" limiting_length="255" never_null="true" id="21"/>
+		<field name="DepartmentName" uuid="55DEE951461C44A48B4DEBAA6D2DF2AE" type="10" limiting_length="255" never_null="true" id="22"/>
+		<field name="MoreInfo" uuid="9A38F78ED7E44F26919B2959121595FF" type="10" never_null="true" id="23"/>
+		<field name="Birthday" uuid="04DC50A535D64238ADC1B78CCF1901BA" type="8" never_null="true" id="24"/>
+		<primary_key field_name="ID" field_uuid="1E9FCEADBFE247D388E227A4508838D0"/>
+		<table_extra trashed="true" input_form="" output_form=""/>
+	</table>
+	<table name="(Copy_of_CONTACTS_2)" uuid="4144826BA83F4D3FAA63C6D4BA2C4A83" id="10" hide_in_REST="true">
+		<field name="ID" uuid="2600B3B803F240A8AC6FA81F4BF30E3D" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Info" uuid="53FEC0783E384D209A42BBC8038E8E96" type="21" never_null="true" id="2"/>
+		<primary_key field_name="ID" field_uuid="2600B3B803F240A8AC6FA81F4BF30E3D"/>
+		<table_extra trashed="true" input_form="" output_form=""/>
+	</table>
+	<index kind="regular" unique_keys="true" uuid="1C13C640DE8A41BC898F56A845E2C48D" type="1">
+		<field_ref uuid="00BF9634AF9C40E0BEF6C6CE132A2E21" name="Client_ID">
+			<table_ref uuid="51B960B9099D4810A75B2E180E6F4BD4" name="(Clients_1)"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="4D0F0EE10A46463E8F1EECDBE7895E1D" type="7">
+		<field_ref uuid="24FCD9D394A7AC42B27172D4AF9B7EAF" name="Capital">
+			<table_ref uuid="6E09F7CC68B30A458A646D9D5EB59CEE" name="(Countries)"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="52716723287F4F828B3A92E11BF8C686" type="7">
+		<field_ref uuid="B0045E0583C747BE8D8CB6E6579C8224" name="ID">
+			<table_ref uuid="90427999CF844DEE9B3FE3F224795D2B" name="(SAMPLES)"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="564B49DD949A4879B5A52321A5EE2427" type="1">
+		<field_ref uuid="1E9FCEADBFE247D388E227A4508838D0" name="ID">
+			<table_ref uuid="147979A442CE45A78F5597EF6DFA5E87" name="(CONTACTS_1)"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="7199BDB6371040FB90F2718836D506A3" type="1">
+		<field_ref uuid="37F3A409B6FE4BFD83F71B5C81D646E2" name="ID">
+			<table_ref uuid="7AF11397AA7F4E4DB8665309CE51D998" name="CONTACTS_2"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="82BDD7B969984088AC08A9794711A8C1" type="1">
+		<field_ref uuid="2600B3B803F240A8AC6FA81F4BF30E3D" name="ID">
+			<table_ref uuid="4144826BA83F4D3FAA63C6D4BA2C4A83" name="(Copy_of_CONTACTS_2)"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="8599B6EA19E4433B99F62ED3BD32763A" type="3">
+		<field_ref uuid="968BE599CF3F4DFD838DF8C64473A44C" name="Info">
+			<table_ref uuid="7AF11397AA7F4E4DB8665309CE51D998" name="CONTACTS_2"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" name="pk_index_1" uuid="908FADB86BA446D48DA780B6D27CDDD4" type="7">
+		<field_ref uuid="923B40508C8B4E119B72BA99AA5E65B9" name="ID">
+			<table_ref uuid="6E09F7CC68B30A458A646D9D5EB59CEE" name="(Countries)"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="9D82FEA90D614DC6862DABF038962BDC" type="1">
+		<field_ref uuid="1A1058BD66D14F489467A909137C5CDE" name="Client_ID">
+			<table_ref uuid="84D020A71B104B978B1B6E6B0777BA4A" name="(Clients)"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="9DE9E576180B4D8BA650373E3DEED2F1" type="7">
+		<field_ref uuid="3E992E889DC74691AAE3CACBAEBF315E" name="Society">
+			<table_ref uuid="51B960B9099D4810A75B2E180E6F4BD4" name="(Clients_1)"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="A7FF7144E37A457AAB6CFBADB1507CF4" type="1">
+		<field_ref uuid="AF9EB31868C7453798097D13F0770F87" name="Society_ID">
+			<table_ref uuid="FFA616BFD7A042629552B9E09330B5D6" name="(Copy_of_Society)"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="C3808DA79E5B48BE9F1D35C71A7FAEA3" type="7">
+		<field_ref uuid="35873A1D108A4B7D8B9545735AFF71AC" name="Society_ID">
+			<table_ref uuid="0881671D0A1B4A998FB288B48E618538" name="(Society_1)"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="CC070E1FE78B43F7BA7D1E19C96ED3DB" type="7">
+		<field_ref uuid="D5D7E12B410E472587E9495E32E61A6F" name="Society_ID">
+			<table_ref uuid="7B9B4F40444C4079BC4C23A2F71F6FC8" name="(Society)"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="EA5D7A65EE804A0698046B31EA56F621" type="7">
+		<field_ref uuid="D16A82D632F3F1459B395A52203FE591" name="Name">
+			<table_ref uuid="6E09F7CC68B30A458A646D9D5EB59CEE" name="(Countries)"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="FA3D06920FD343FD86B3698363D33904" type="7">
+		<field_ref uuid="B807ADDD9FDF5F4BAF00F8A1E769C872" name="ShortName">
+			<table_ref uuid="6E09F7CC68B30A458A646D9D5EB59CEE" name="(Countries)"/>
+		</field_ref>
+	</index>
+	<base_extra data_file_path=":HowDoI.4DD" package_name="HDI_DISTINCT_ATTRIBUTE_PATH_VALUES" structure_file_name="HowDoI">
+		<journal_file journal_file_enabled="false"/>
+	</base_extra>
+</base>

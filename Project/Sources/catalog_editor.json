@@ -1,0 +1,457 @@
+{
+	"tables": {
+		"(Copy_of_CONTACTS_2)": {
+			"color": {
+				"red": "255",
+				"green": "255",
+				"blue": "255",
+				"alpha": "0"
+			},
+			"coordinates": {
+				"left": "186.015625",
+				"top": "31.9609375",
+				"width": "120",
+				"height": "167.33203125"
+			},
+			"displayable_fields_count": 6
+		},
+		"(CONTACTS_1)": {
+			"color": {
+				"red": "255",
+				"green": "255",
+				"blue": "255",
+				"alpha": "0"
+			},
+			"coordinates": {
+				"left": "7",
+				"top": "28",
+				"width": "158.1640625",
+				"height": "569.9140625"
+			},
+			"displayable_fields_count": 25,
+			"fields_ordering": 2,
+			"fields": {
+				"Birthday": {
+					"position": 24
+				},
+				"MoreInfo": {
+					"position": 23
+				},
+				"DepartmentName": {
+					"position": 22
+				},
+				"JobType": {
+					"position": 21
+				},
+				"CompanyName": {
+					"position": 20
+				},
+				"email": {
+					"position": 19
+				},
+				"Fax": {
+					"position": 18
+				},
+				"Mobile": {
+					"position": 17
+				},
+				"Phone": {
+					"position": 16
+				},
+				"Country": {
+					"position": 15
+				},
+				"State": {
+					"position": 14
+				},
+				"City": {
+					"position": 13
+				},
+				"ZipCode": {
+					"position": 12
+				},
+				"Adress": {
+					"position": 11
+				},
+				"Lastname2": {
+					"position": 10
+				},
+				"MaidenName": {
+					"position": 9
+				},
+				"Gender": {
+					"position": 8
+				},
+				"Suffix": {
+					"position": 7
+				},
+				"SecondName": {
+					"position": 6
+				},
+				"Firstname": {
+					"position": 5
+				},
+				"Lastname": {
+					"position": 4
+				},
+				"AbvTitle": {
+					"position": 3
+				},
+				"Title": {
+					"position": 2
+				},
+				"ID": {
+					"position": 1
+				}
+			}
+		},
+		"CONTACTS_2": {
+			"color": {
+				"red": "255",
+				"green": "255",
+				"blue": "255",
+				"alpha": "0"
+			},
+			"coordinates": {
+				"left": "196.85546875",
+				"top": "33.6953125",
+				"width": "120",
+				"height": "167.33203125"
+			},
+			"displayable_fields_count": 6,
+			"fields": {
+				"Info": {
+					"color": {
+						"red": "255",
+						"green": "255",
+						"blue": "255",
+						"alpha": "0"
+					}
+				}
+			}
+		},
+		"(Society_1)": {
+			"color": {
+				"red": "255",
+				"green": "255",
+				"blue": "255",
+				"alpha": "0"
+			},
+			"coordinates": {
+				"left": "7",
+				"top": "686.87890625",
+				"width": "170.40625",
+				"height": "225.90234375"
+			},
+			"displayable_fields_count": 8,
+			"fields": {
+				"Country": {
+					"position": 12
+				},
+				"State": {
+					"position": 11
+				},
+				"City": {
+					"position": 10
+				},
+				"Adress": {
+					"position": 8
+				},
+				"Zip": {
+					"position": 9
+				}
+			}
+		},
+		"(Clients_1)": {
+			"color": {
+				"red": "255",
+				"green": "255",
+				"blue": "255",
+				"alpha": "0"
+			},
+			"coordinates": {
+				"left": "258.5234375",
+				"top": "400.18359375",
+				"width": "257.62890625",
+				"height": "545.1640625"
+			},
+			"displayable_fields_count": 23,
+			"fields": {
+				"Gender": {
+					"position": 5
+				},
+				"State": {
+					"position": 11
+				},
+				"boolean": {
+					"position": 17
+				},
+				"time": {
+					"position": 16
+				},
+				"Date": {
+					"position": 15
+				},
+				"Picture": {
+					"position": 14
+				},
+				"Count": {
+					"position": 13
+				},
+				"Country": {
+					"position": 12
+				},
+				"City": {
+					"position": 10
+				},
+				"Zip": {
+					"position": 9
+				},
+				"Adress": {
+					"position": 8
+				},
+				"Title": {
+					"position": 2
+				},
+				"First_name": {
+					"position": 3
+				},
+				"Society": {
+					"position": 7
+				},
+				"Activity": {
+					"position": 6
+				},
+				"Name": {
+					"position": 4
+				},
+				"Client_ID": {
+					"position": 1
+				}
+			}
+		},
+		"(Copy_of_Society)": {
+			"color": {
+				"red": "255",
+				"green": "255",
+				"blue": "255",
+				"alpha": "0"
+			},
+			"coordinates": {
+				"left": "14",
+				"top": "714.87890625",
+				"width": "170.40625",
+				"height": "225.90234375"
+			},
+			"displayable_fields_count": 8,
+			"fields": {
+				"Country": {
+					"position": 12
+				},
+				"State": {
+					"position": 11
+				},
+				"City": {
+					"position": 10
+				},
+				"Adress": {
+					"position": 8
+				},
+				"Zip": {
+					"position": 9
+				}
+			}
+		},
+		"(Society)": {
+			"color": {
+				"red": "255",
+				"green": "255",
+				"blue": "255",
+				"alpha": "0"
+			},
+			"coordinates": {
+				"left": "403.84765625",
+				"top": "391.99609375",
+				"width": "170.40625",
+				"height": "225.90234375"
+			},
+			"displayable_fields_count": 8,
+			"fields": {
+				"Country": {
+					"position": 12
+				},
+				"State": {
+					"position": 11
+				},
+				"City": {
+					"position": 10
+				},
+				"Adress": {
+					"position": 8
+				},
+				"Zip": {
+					"position": 9
+				}
+			}
+		},
+		"(Clients)": {
+			"color": {
+				"red": "255",
+				"green": "255",
+				"blue": "255",
+				"alpha": "0"
+			},
+			"coordinates": {
+				"left": "633.4375",
+				"top": "82.71484375",
+				"width": "257.62890625",
+				"height": "545.1640625"
+			},
+			"displayable_fields_count": 23,
+			"fields": {
+				"Gender": {
+					"position": 5
+				},
+				"State": {
+					"position": 11
+				},
+				"boolean": {
+					"position": 17
+				},
+				"time": {
+					"position": 16
+				},
+				"Date": {
+					"position": 15
+				},
+				"Picture": {
+					"position": 14
+				},
+				"Count": {
+					"position": 13
+				},
+				"Country": {
+					"position": 12
+				},
+				"City": {
+					"position": 10
+				},
+				"Zip": {
+					"position": 9
+				},
+				"Adress": {
+					"position": 8
+				},
+				"Title": {
+					"position": 2
+				},
+				"First_name": {
+					"position": 3
+				},
+				"Society": {
+					"position": 7
+				},
+				"Activity": {
+					"position": 6
+				},
+				"Name": {
+					"position": 4
+				},
+				"Client_ID": {
+					"position": 1
+				}
+			}
+		},
+		"(SAMPLES)": {
+			"color": {
+				"red": "255",
+				"green": "255",
+				"blue": "255",
+				"alpha": "0"
+			},
+			"coordinates": {
+				"left": "332.3125",
+				"top": "38.4140625",
+				"width": "313.62109375",
+				"height": "166.33203125"
+			},
+			"displayable_fields_count": 5,
+			"fields": {
+				"SampleSort": {
+					"position": 2
+				},
+				"Title": {
+					"position": 3
+				},
+				"TextToProcess": {
+					"position": 4
+				},
+				"ID": {
+					"position": 1
+				}
+			}
+		},
+		"(Countries)": {
+			"color": {
+				"red": "255",
+				"green": "255",
+				"blue": "255",
+				"alpha": "0"
+			},
+			"coordinates": {
+				"left": "42",
+				"top": "13",
+				"width": "232.59375",
+				"height": "431.015625"
+			},
+			"displayable_fields_count": 18,
+			"fields": {
+				"ID": {
+					"position": 1
+				},
+				"Flag": {
+					"position": 15
+				},
+				"InhabitantPosition": {
+					"position": 14
+				},
+				"Inhabitants": {
+					"position": 13
+				},
+				"AreaPosition": {
+					"position": 12
+				},
+				"Area": {
+					"position": 11
+				},
+				"CallingCode": {
+					"position": 10
+				},
+				"TLD": {
+					"position": 9
+				},
+				"TimeZone": {
+					"position": 8
+				},
+				"Currency": {
+					"position": 7
+				},
+				"Anthem": {
+					"position": 6
+				},
+				"Language": {
+					"position": 5
+				},
+				"Capital": {
+					"position": 4
+				},
+				"Name": {
+					"position": 3
+				},
+				"ShortName": {
+					"position": 2
+				}
+			}
+		}
+	}
+}

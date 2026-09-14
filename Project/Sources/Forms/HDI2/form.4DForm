@@ -1,0 +1,692 @@
+{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"width": 800,
+	"height": 600,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onClick",
+		"onDataChange",
+		"onSelectionChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Tab Control": {
+					"type": "tab",
+					"top": 10,
+					"left": 10,
+					"width": 780,
+					"height": 579,
+					"dataSource": "tabControl",
+					"dataSourceTypeHint": "arrayText",
+					"action": "gotoPage",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Variable": {
+					"type": "input",
+					"top": 60,
+					"left": 61,
+					"width": 687,
+					"height": 426,
+					"dataSource": "textInfo",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"hideFocusRing": true,
+					"styledText": true,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"top": 553,
+					"left": 680,
+					"width": 91,
+					"height": 17,
+					"text": "-->",
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Picture8": {
+					"type": "picture",
+					"top": 372,
+					"left": 356,
+					"width": 175,
+					"height": 239,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture8.png"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Popup Dropdown List": {
+					"type": "dropdown",
+					"top": 120,
+					"left": 552,
+					"width": 150,
+					"height": 22,
+					"dataSource": "_DistinctPath",
+					"focusable": false,
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 120,
+					"left": 432,
+					"width": 76,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Attribute"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 237,
+					"left": 432,
+					"width": 76,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Value:"
+				},
+				"distinctValuesList": {
+					"type": "listbox",
+					"top": 237,
+					"left": 552,
+					"width": 150,
+					"height": 130,
+					"resizingMode": "legacy",
+					"dataSource": "List Box1",
+					"focusable": false,
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"scrollbarHorizontal": "automatic",
+					"events": [
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"columns": [
+						{
+							"name": "Column5",
+							"dataSource": "_DistinctValues",
+							"width": 175,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"truncateMode": "none",
+							"stroke": "automatic",
+							"fill": "automatic",
+							"alternateFill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header5",
+								"text": "Header5",
+								"dataSource": "Header5",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": "Footer5",
+								"truncateMode": "none",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						}
+					]
+				},
+				"Text5": {
+					"type": "text",
+					"top": 64,
+					"left": 432,
+					"width": 250,
+					"height": 33,
+					"text": "These attributes are the existing attributes in the object field. "
+				},
+				"Text6": {
+					"type": "text",
+					"top": 184,
+					"left": 432,
+					"width": 250,
+					"height": 33,
+					"text": "These values are the non-repeated values for the attribute selected. "
+				},
+				"Button": {
+					"type": "button",
+					"top": 107,
+					"left": 119,
+					"width": 150,
+					"height": 17,
+					"text": "Get distinct paths",
+					"focusable": false,
+					"method": "ObjectMethods/Button.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text2": {
+					"type": "text",
+					"top": 64,
+					"left": 67,
+					"width": 250,
+					"height": 33,
+					"text": "1- Get distinct paths from the object field."
+				},
+				"Button1": {
+					"type": "button",
+					"top": 226,
+					"left": 119,
+					"width": 150,
+					"height": 17,
+					"text": "Get distinct values",
+					"focusable": false,
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text7": {
+					"type": "text",
+					"top": 184,
+					"left": 67,
+					"width": 250,
+					"height": 33,
+					"text": "2- Get distinct values from the attribute path selected."
+				},
+				"Text4": {
+					"type": "text",
+					"top": 301,
+					"left": 67,
+					"width": 250,
+					"height": 33,
+					"text": "The object field queried: "
+				},
+				"Picture10": {
+					"type": "picture",
+					"top": 354,
+					"left": 0,
+					"width": 753,
+					"height": 215,
+					"pictureFormat": "truncatedTopLeft",
+					"picture": "Images/Picture10.png"
+				},
+				"Picture6": {
+					"type": "picture",
+					"top": 263,
+					"left": 235,
+					"width": 244,
+					"height": 117,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture6.png"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Round Rectangle6": {
+					"type": "rectangle",
+					"top": 239,
+					"left": 30,
+					"width": 740,
+					"height": 340,
+					"fill": "transparent",
+					"borderRadius": 5
+				},
+				"Popup Dropdown List1": {
+					"type": "dropdown",
+					"top": 116,
+					"left": 116,
+					"width": 180,
+					"height": 22,
+					"dataSource": "_DistinctPath",
+					"focusable": false,
+					"method": "ObjectMethods/Popup Dropdown List1.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"Text11": {
+					"type": "text",
+					"top": 86,
+					"left": 110,
+					"width": 76,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Attribute:"
+				},
+				"Text12": {
+					"type": "text",
+					"top": 86,
+					"left": 325,
+					"width": 76,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Value:"
+				},
+				"Button8": {
+					"type": "button",
+					"top": 116,
+					"left": 568,
+					"width": 180,
+					"height": 22,
+					"text": "Query by attribute",
+					"focusable": false,
+					"method": "ObjectMethods/Button8.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button9": {
+					"type": "button",
+					"top": 36,
+					"left": 568,
+					"width": 90,
+					"height": 22,
+					"text": "All records",
+					"focusable": false,
+					"method": "ObjectMethods/Button9.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"distinctValuesList1": {
+					"type": "listbox",
+					"top": 116,
+					"left": 322,
+					"width": 180,
+					"height": 102,
+					"resizingMode": "legacy",
+					"dataSource": "List Box1",
+					"focusable": false,
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"scrollbarHorizontal": "automatic",
+					"events": [
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"columns": [
+						{
+							"name": "Column3",
+							"dataSource": "_DistinctValues",
+							"width": 165,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"truncateMode": "none",
+							"stroke": "automatic",
+							"fill": "automatic",
+							"alternateFill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header3",
+								"text": "Header5",
+								"dataSource": "Header5",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": "Footer3",
+								"truncateMode": "none",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						}
+					]
+				},
+				"Text13": {
+					"type": "text",
+					"top": 366,
+					"left": 500,
+					"width": 130,
+					"height": 18,
+					"textAlign": "right",
+					"fontFamily": "System Font",
+					"fontSize": 13,
+					"text": "Maximum age:"
+				},
+				"Variable5": {
+					"type": "input",
+					"top": 367,
+					"left": 643,
+					"width": 127,
+					"height": 16,
+					"dataSource": "ageMax",
+					"textAlign": "left",
+					"fontFamily": "System Font",
+					"fontSize": 13,
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text14": {
+					"type": "text",
+					"top": 412,
+					"left": 500,
+					"width": 130,
+					"height": 18,
+					"textAlign": "right",
+					"fontFamily": "System Font",
+					"fontSize": 13,
+					"text": "Minimum age:"
+				},
+				"Variable6": {
+					"type": "input",
+					"top": 413,
+					"left": 643,
+					"width": 127,
+					"height": 16,
+					"dataSource": "ageMin",
+					"textAlign": "left",
+					"fontFamily": "System Font",
+					"fontSize": 13,
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text15": {
+					"type": "text",
+					"top": 458,
+					"left": 500,
+					"width": 130,
+					"height": 18,
+					"textAlign": "right",
+					"fontFamily": "System Font",
+					"fontSize": 13,
+					"text": "Average age:"
+				},
+				"Variable7": {
+					"type": "input",
+					"top": 459,
+					"left": 643,
+					"width": 127,
+					"height": 16,
+					"dataSource": "ageAverage",
+					"textAlign": "left",
+					"fontFamily": "System Font",
+					"fontSize": 13,
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"contactsList": {
+					"type": "listbox",
+					"top": 300,
+					"left": 41,
+					"width": 458,
+					"height": 250,
+					"resizingMode": "legacy",
+					"listboxType": "currentSelection",
+					"dataSource": "contactsList",
+					"focusable": false,
+					"movableRows": false,
+					"table": 8,
+					"highlightSet": "$ListboxSet1",
+					"scrollbarHorizontal": "automatic",
+					"method": "ObjectMethods/contactsList.4dm",
+					"events": [
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"columns": [
+						{
+							"name": "Column10",
+							"dataSource": "OB Get:C1224([CONTACTS_2:8]Info:2; \"FirstName\")+\" \"+OB Get:C1224([CONTACTS_2:8]Info:2; \"LastName\")",
+							"width": 110,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"alternateFill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header10",
+								"text": "Name",
+								"dataSource": "Header7",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": "Footer10",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						},
+						{
+							"name": "Column11",
+							"dataSource": "OB Get:C1224([CONTACTS_2:8]Info:2; \"City\")",
+							"width": 110,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"alternateFill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header11",
+								"text": "City",
+								"dataSource": "Header8",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": "Footer11",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						},
+						{
+							"name": "Column12",
+							"dataSource": "OB Get:C1224([CONTACTS_2:8]Info:2; \"Phone\")",
+							"width": 100,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"alternateFill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header12",
+								"text": "Phone",
+								"dataSource": "Header9",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": "Footer12",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						},
+						{
+							"name": "Column4",
+							"dataSource": "OB Get:C1224([CONTACTS_2:8]Info:2; \"CompanyName\")",
+							"width": 123,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"alternateFill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header4",
+								"text": "Company",
+								"dataSource": "Header4",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": "Footer4",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						}
+					]
+				},
+				"Variable8": {
+					"type": "input",
+					"top": 324,
+					"left": 500,
+					"width": 270,
+					"height": 16,
+					"dataSource": "vTextRecord",
+					"textAlign": "center",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text18": {
+					"type": "text",
+					"top": 42,
+					"left": 50,
+					"width": 386,
+					"height": 30,
+					"text": "You can query the field in order to retrieve the data which match a defined attribute."
+				},
+				"Text19": {
+					"type": "text",
+					"top": 270,
+					"left": 480,
+					"width": 290,
+					"height": 15,
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "Statistics on the current selection"
+				},
+				"Text21": {
+					"type": "text",
+					"top": 270,
+					"left": 30,
+					"width": 340,
+					"height": 17,
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "List of contacts"
+				},
+				"Button3": {
+					"type": "button",
+					"top": 36,
+					"left": 658,
+					"width": 90,
+					"height": 22,
+					"text": "Clear",
+					"focusable": false,
+					"method": "ObjectMethods/Button3.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	]
+}
