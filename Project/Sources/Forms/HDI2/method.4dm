@@ -3,6 +3,12 @@
 Case of 
 	: (Form event code:C388=On Load:K2:1)
 		
+		If (Records in table:C83([CONTACTS_2:8])=0)
+			$path:=Folder:C1567(fk resources folder:K87:11).file("data.4ie").platformPath
+			$project:=""
+			IMPORT DATA:C665($path; $project)
+		End if 
+		
 		hdi_init
 		
 		ARRAY TEXT:C222(_DistinctPath; 0)
@@ -28,7 +34,7 @@ Case of
 			
 			// if the popup is empty
 			If ((Size of array:C274(_DistinctPath)=0))
-				ALERT:C41(Localized string("AlertGoBackToExamplePage"))
+				ALERT:C41(Localized string:C991("AlertGoBackToExamplePage"))
 			End if 
 			
 			//empty the listbox before any querry

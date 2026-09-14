@@ -9,7 +9,6 @@ var bValidate : Real
 var Header1 : Real
 var Header2 : Real
 var Header3 : Real
-var List Box : Real
 var OutputVar : Text
 var Splitter10 : Real
 var Splitter11 : Real

@@ -124,7 +124,7 @@
 					"width": 150,
 					"height": 130,
 					"resizingMode": "legacy",
-					"dataSource": "List Box1",
+					"dataSource": "",
 					"focusable": false,
 					"rowHeightAutoMin": "20px",
 					"rowHeightAutoMax": "20px",
@@ -341,7 +341,7 @@
 					"width": 180,
 					"height": 102,
 					"resizingMode": "legacy",
-					"dataSource": "List Box1",
+					"dataSource": "",
 					"focusable": false,
 					"rowHeightAutoMin": "20px",
 					"rowHeightAutoMax": "20px",
@@ -711,5 +711,9 @@
 				}
 			}
 		}
-	]
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
 }
