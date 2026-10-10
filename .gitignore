@@ -17,3 +17,10 @@ Settings/
 
 # 4D runtime library dropped into the project by the IDE/engine
 Libraries/
+
+# Tools provisioned by the 4D skills (see the 4dtools skill)
+/tools/4dcatalog/
+/tools/4dform/
+/tools/4dlsp/
+/tools/4dlang/
+/tools/4dcli/
